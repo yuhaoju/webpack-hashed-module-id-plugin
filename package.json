@@ -16,9 +16,9 @@
   },
   "keywords": [
     "webpack",
-    "hash"
-    "hashed"
-    "module"
+    "hash",
+    "hashed",
+    "module",
     "webpack-hashed-module-id-plugin"
   ],
   "author": "yuhao.ju",
