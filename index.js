@@ -30,7 +30,6 @@ HashedModuleIdsPlugin.prototype.apply = function (compiler) {
 
                     // Webpack 1 can't take character as id, so transform hash to ascii code here.
                     var shortenedHashId = hashId.substr(0, len);
-                    console.log(shortenedHashId);
                     module.id = 0;
                     for(var i = 0; i < len; i++) {
                         module.id += shortenedHashId[i].charCodeAt(0) * Math.pow(10, 2 * (len - i) - 2);
