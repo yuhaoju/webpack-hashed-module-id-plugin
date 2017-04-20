@@ -1,6 +1,7 @@
 'use strict';
 
 var createHash = require("crypto").createHash;
+var extend = require("extend");
 
 function HashedModuleIdsPlugin(options) {
     this.options = extend(true, {
