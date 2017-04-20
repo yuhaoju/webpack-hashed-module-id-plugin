@@ -1,6 +1,6 @@
 {
   "name": "webpack-hashed-module-id-plugin",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Help making stable module id (compatible with Webpack 1 & 2)",
   "main": "index.js",
   "dependencies": {
@@ -17,6 +17,9 @@
   "keywords": [
     "webpack",
     "hash"
+    "hashed"
+    "module"
+    "webpack-hashed-module-id-plugin"
   ],
   "author": "yuhao.ju",
   "license": "MIT",
